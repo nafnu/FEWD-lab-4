@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+
+/* Styling the first container */
+.first_container{
+    background: black;
+    text-align: center;
+    position: relative;
+}
+
+.first_container img{
+    width: 100%;
+}
+
+.fc_text{
+    color: borgundy;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    /* Styling font */
+    font-family: 'Over the Rainbow',cursive;
+    font-size: 20px;
+}
+
+.first_container hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+/* Styling the second container */
+.second_container{
+    background-color: #fc9c4e;
+    text-align: right;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 80px;
+    border: 60px inset #b57755;
+}
+
+.second_container img{
+    width: 20%;
+}
+
+.second_container h1{
+    color: white;
+    line-height: 0;
+    padding: 40px;
+    text-align: center;
+    top: 50%;
+    right: 10%;
+    /* Styling font */
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#br_1{
+    font-size: 55px;
+}
+
+#br_2{
+    font-size: 160px;
+    margin-top: -10px;
+}
+
+#br_3{
+    margin-top: -75px;
+}
+
+#br_4{
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+/* Styling the third container */
+.third_container{
+    background-color: #1f1008;
+    color: black;
+    padding-bottom: 400px;
+    padding-top: 80px;
+}
+
+.third_container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.third_container h1{
+    color: #93cced;
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+    top: 50%;
+    right: 10%;
+    /* Styling font */
+    font-family: 'Covered By Your Grace', cursive;
+}
